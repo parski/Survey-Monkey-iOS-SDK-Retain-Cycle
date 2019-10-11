@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21E7E1796EA893AFFBAE93EC /* Pods_SurveyLeak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E40D2C0EA8855EB9F734B55 /* Pods_SurveyLeak.framework */; };
+		F2C644912350B4AC0067035A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C644902350B4AC0067035A /* AppDelegate.swift */; };
+		F2C644932350B4AC0067035A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C644922350B4AC0067035A /* SceneDelegate.swift */; };
+		F2C644952350B4AC0067035A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C644942350B4AC0067035A /* ViewController.swift */; };
+		F2C644982350B4AC0067035A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C644962350B4AC0067035A /* Main.storyboard */; };
+		F2C6449A2350B4AD0067035A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C644992350B4AD0067035A /* Assets.xcassets */; };
+		F2C6449D2350B4AD0067035A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C6449B2350B4AD0067035A /* LaunchScreen.storyboard */; };
+		F2C644A52350B4CC0067035A /* RetainedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C644A42350B4CC0067035A /* RetainedViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A038B78DD0E57F1F3F820FB /* Pods-SurveyLeak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SurveyLeak.release.xcconfig"; path = "Target Support Files/Pods-SurveyLeak/Pods-SurveyLeak.release.xcconfig"; sourceTree = "<group>"; };
+		58DA7190E223D37292A332B0 /* Pods-SurveyLeak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SurveyLeak.debug.xcconfig"; path = "Target Support Files/Pods-SurveyLeak/Pods-SurveyLeak.debug.xcconfig"; sourceTree = "<group>"; };
+		5E40D2C0EA8855EB9F734B55 /* Pods_SurveyLeak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SurveyLeak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25395612350BBC00037C838 /* SurveyLeak-BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SurveyLeak-BridgingHeader.h"; sourceTree = "<group>"; };
+		F2C6448D2350B4AC0067035A /* SurveyLeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurveyLeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C644902350B4AC0067035A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2C644922350B4AC0067035A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F2C644942350B4AC0067035A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2C644972350B4AC0067035A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2C644992350B4AD0067035A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2C6449C2350B4AD0067035A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2C6449E2350B4AD0067035A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2C644A42350B4CC0067035A /* RetainedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetainedViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2C6448A2350B4AC0067035A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E7E1796EA893AFFBAE93EC /* Pods_SurveyLeak.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20B9BF58EAAFBA5B2004562C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58DA7190E223D37292A332B0 /* Pods-SurveyLeak.debug.xcconfig */,
+				0A038B78DD0E57F1F3F820FB /* Pods-SurveyLeak.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DD8610A4650A3469CB5A5F46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E40D2C0EA8855EB9F734B55 /* Pods_SurveyLeak.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2C644842350B4AC0067035A = {
+			isa = PBXGroup;
+			children = (
+				F2C6448F2350B4AC0067035A /* SurveyLeak */,
+				F2C6448E2350B4AC0067035A /* Products */,
+				20B9BF58EAAFBA5B2004562C /* Pods */,
+				DD8610A4650A3469CB5A5F46 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2C6448E2350B4AC0067035A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2C6448D2350B4AC0067035A /* SurveyLeak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2C6448F2350B4AC0067035A /* SurveyLeak */ = {
+			isa = PBXGroup;
+			children = (
+				F2C644902350B4AC0067035A /* AppDelegate.swift */,
+				F2C644922350B4AC0067035A /* SceneDelegate.swift */,
+				F2C644942350B4AC0067035A /* ViewController.swift */,
+				F2C644962350B4AC0067035A /* Main.storyboard */,
+				F2C644992350B4AD0067035A /* Assets.xcassets */,
+				F2C6449B2350B4AD0067035A /* LaunchScreen.storyboard */,
+				F2C6449E2350B4AD0067035A /* Info.plist */,
+				F2C644A42350B4CC0067035A /* RetainedViewController.swift */,
+				F25395612350BBC00037C838 /* SurveyLeak-BridgingHeader.h */,
+			);
+			path = SurveyLeak;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2C6448C2350B4AC0067035A /* SurveyLeak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2C644A12350B4AD0067035A /* Build configuration list for PBXNativeTarget "SurveyLeak" */;
+			buildPhases = (
+				E461506E550172F881C6D5A3 /* [CP] Check Pods Manifest.lock */,
+				F2C644892350B4AC0067035A /* Sources */,
+				F2C6448A2350B4AC0067035A /* Frameworks */,
+				F2C6448B2350B4AC0067035A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SurveyLeak;
+			productName = SurveyLeak;
+			productReference = F2C6448D2350B4AC0067035A /* SurveyLeak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2C644852350B4AC0067035A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Plata o Plomo AB";
+				TargetAttributes = {
+					F2C6448C2350B4AC0067035A = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = F2C644882350B4AC0067035A /* Build configuration list for PBXProject "SurveyLeak" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2C644842350B4AC0067035A;
+			productRefGroup = F2C6448E2350B4AC0067035A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2C6448C2350B4AC0067035A /* SurveyLeak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2C6448B2350B4AC0067035A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C6449D2350B4AD0067035A /* LaunchScreen.storyboard in Resources */,
+				F2C6449A2350B4AD0067035A /* Assets.xcassets in Resources */,
+				F2C644982350B4AC0067035A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E461506E550172F881C6D5A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SurveyLeak-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2C644892350B4AC0067035A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C644952350B4AC0067035A /* ViewController.swift in Sources */,
+				F2C644912350B4AC0067035A /* AppDelegate.swift in Sources */,
+				F2C644A52350B4CC0067035A /* RetainedViewController.swift in Sources */,
+				F2C644932350B4AC0067035A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2C644962350B4AC0067035A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2C644972350B4AC0067035A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2C6449B2350B4AD0067035A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2C6449C2350B4AD0067035A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2C6449F2350B4AD0067035A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2C644A02350B4AD0067035A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2C644A22350B4AD0067035A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58DA7190E223D37292A332B0 /* Pods-SurveyLeak.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6S72UNA64N;
+				INFOPLIST_FILE = SurveyLeak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.plomo.SurveyLeak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SurveyLeak/SurveyLeak-BridgingHeader.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2C644A32350B4AD0067035A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A038B78DD0E57F1F3F820FB /* Pods-SurveyLeak.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6S72UNA64N;
+				INFOPLIST_FILE = SurveyLeak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.plomo.SurveyLeak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SurveyLeak/SurveyLeak-BridgingHeader.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2C644882350B4AC0067035A /* Build configuration list for PBXProject "SurveyLeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C6449F2350B4AD0067035A /* Debug */,
+				F2C644A02350B4AD0067035A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2C644A12350B4AD0067035A /* Build configuration list for PBXNativeTarget "SurveyLeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C644A22350B4AD0067035A /* Debug */,
+				F2C644A32350B4AD0067035A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2C644852350B4AC0067035A /* Project object */;
+}

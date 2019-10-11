@@ -1,0 +1,16 @@
+PODS:
+  - surveymonkey-ios-sdk (2.0.4)
+
+DEPENDENCIES:
+  - surveymonkey-ios-sdk (~> 2.0)
+
+SPEC REPOS:
+  trunk:
+    - surveymonkey-ios-sdk
+
+SPEC CHECKSUMS:
+  surveymonkey-ios-sdk: 974f5b54687df43edf63253f6de8da035237e15f
+
+PODFILE CHECKSUM: a75fcefbf68390e72955f39c9ff8e65054e90787
+
+COCOAPODS: 1.8.3
